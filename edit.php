@@ -130,7 +130,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
                   
                 <!--desc-->
 
-                <form method="post">
+                
                 <div class="form-floating">
                 <label for="desc_plat">description du plat :</label>
                     <textarea class="form-control" placeholder="entre la description du plat" id="desc_plat" name="desc_plat" style="height: 100px"><?=$plat['desc_plat']?></textarea>
